@@ -111,27 +111,6 @@
             "parent": 0
           }
         },
-        "513": {
-          "json": {
-            "position": {
-              "x": 78.55534362792969,
-              "y": 33.25,
-              "z": 133.79302978515625
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            },
-            "parent": 0
-          }
-        },
         "514": {
           "json": {
             "position": {
@@ -153,23 +132,44 @@
             "parent": 0
           }
         },
-        "515": {
+        "516": {
           "json": {
             "position": {
-              "x": 75.39482116699219,
-              "y": 31.75,
-              "z": 106.29476165771484
+              "x": 3.5116281509399414,
+              "y": -0.20802879333496094,
+              "z": -0.1800297647714615
+            },
+            "rotation": {
+              "x": 1,
+              "y": -6.123230954203389e-17,
+              "z": 2.0226753757145166e-14,
+              "w": 1.3234886645404822e-23
+            },
+            "scale": {
+              "x": 1.8411214351654053,
+              "y": -1.2200000286102295,
+              "z": 1.1071866750717163
+            },
+            "parent": 517
+          }
+        },
+        "517": {
+          "json": {
+            "position": {
+              "x": 87,
+              "y": 32,
+              "z": 108
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071067690849304,
+              "z": 0,
+              "w": -0.7071067690849304
             },
             "scale": {
               "x": 1,
               "y": 1,
               "z": 1
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
             },
             "parent": 0
           }
@@ -195,46 +195,25 @@
             "parent": 0
           }
         },
-        "522": {
+        "520": {
           "json": {
             "position": {
-              "x": 76.25,
-              "y": 32,
-              "z": 105.75
-            },
-            "scale": {
-              "x": 1.350000023841858,
-              "y": 1.100000023841858,
-              "z": 1
+              "x": -0.18651515245437622,
+              "y": -0.16666603088378906,
+              "z": -2.552016496658325
             },
             "rotation": {
               "x": 0,
-              "y": 1,
+              "y": 1.7271127155391378e-14,
               "z": 0,
-              "w": 6.123234262925839e-17
-            },
-            "parent": 0
-          }
-        },
-        "524": {
-          "json": {
-            "position": {
-              "x": 80.75,
-              "y": 32,
-              "z": 105.75
+              "w": 1
             },
             "scale": {
-              "x": 1.350000023841858,
-              "y": -1.100000023841858,
+              "x": 1,
+              "y": 1,
               "z": 1
             },
-            "rotation": {
-              "x": 1,
-              "y": 6.123234262925839e-17,
-              "z": 6.123234262925839e-17,
-              "w": 3.749399025711001e-33
-            },
-            "parent": 0
+            "parent": 517
           }
         },
         "525": {
@@ -254,6 +233,27 @@
               "y": 0,
               "z": 0,
               "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "528": {
+          "json": {
+            "position": {
+              "x": 79.75,
+              "y": 32.25,
+              "z": 102.5
+            },
+            "rotation": {
+              "x": 0.24763400852680206,
+              "y": -0.662327229976654,
+              "z": -0.662327229976654,
+              "w": -0.24763400852680206
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
             },
             "parent": 0
           }
@@ -277,22 +277,16 @@
         "serializationType": "map"
       },
       "data": {
-        "515": {
+        "516": {
           "json": {
             "networkId": 0,
-            "entityId": 8012
+            "entityId": 8013
           }
         },
-        "522": {
+        "520": {
           "json": {
             "networkId": 0,
-            "entityId": 8009
-          }
-        },
-        "524": {
-          "json": {
-            "networkId": 0,
-            "entityId": 8010
+            "entityId": 8015
           }
         }
       }
@@ -326,17 +320,17 @@
             "states": []
           }
         },
-        "513": {
-          "json": {
-            "states": []
-          }
-        },
         "514": {
           "json": {
             "states": []
           }
         },
-        "515": {
+        "516": {
+          "json": {
+            "states": []
+          }
+        },
+        "517": {
           "json": {
             "states": []
           }
@@ -346,17 +340,17 @@
             "states": []
           }
         },
-        "522": {
-          "json": {
-            "states": []
-          }
-        },
-        "524": {
+        "520": {
           "json": {
             "states": []
           }
         },
         "525": {
+          "json": {
+            "states": []
+          }
+        },
+        "528": {
           "json": {
             "states": []
           }
@@ -379,16 +373,9 @@
             "invisibleMeshesCollisionMask": 0
           }
         },
-        "513": {
+        "516": {
           "json": {
-            "src": "assets/asset-packs/sword/sword.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
-          }
-        },
-        "515": {
-          "json": {
-            "src": "assets/asset-packs/pirate_lever/lever_pirates.glb",
+            "src": "assets/custom/doors+handle/door_pirates.glb",
             "visibleMeshesCollisionMask": 1,
             "invisibleMeshesCollisionMask": 2
           }
@@ -400,16 +387,9 @@
             "invisibleMeshesCollisionMask": 2
           }
         },
-        "522": {
+        "520": {
           "json": {
-            "src": "assets/asset-packs/old_wooden_door/door_pirates.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
-          }
-        },
-        "524": {
-          "json": {
-            "src": "assets/asset-packs/old_wooden_door/door_pirates.glb",
+            "src": "assets/custom/doors+handle/lever_pirates.glb",
             "visibleMeshesCollisionMask": 1,
             "invisibleMeshesCollisionMask": 2
           }
@@ -418,6 +398,13 @@
           "json": {
             "src": "assets/asset-packs/trigger_area/trigger_area.glb",
             "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "528": {
+          "json": {
+            "src": "assets/scene/Models/snorlax/snorlax.glb",
+            "visibleMeshesCollisionMask": 1,
             "invisibleMeshesCollisionMask": 2
           }
         }
@@ -441,19 +428,19 @@
             "value": "dust_exported.glb"
           }
         },
-        "513": {
-          "json": {
-            "value": "Sword"
-          }
-        },
         "514": {
           "json": {
             "value": "Invisible Wall"
           }
         },
-        "515": {
+        "516": {
           "json": {
-            "value": "Pirate Lever"
+            "value": "Old Wooden Door_2_3"
+          }
+        },
+        "517": {
+          "json": {
+            "value": "Doors+Handle"
           }
         },
         "518": {
@@ -461,19 +448,19 @@
             "value": "FPSCamera"
           }
         },
-        "522": {
+        "520": {
           "json": {
-            "value": "Old Wooden Door"
-          }
-        },
-        "524": {
-          "json": {
-            "value": "Old Wooden Door_2"
+            "value": "Pirate Lever_2"
           }
         },
         "525": {
           "json": {
             "value": "Fall Respawn Area"
+          }
+        },
+        "528": {
+          "json": {
+            "value": "Pokemon_Pikachu"
           }
         }
       }
@@ -487,23 +474,22 @@
         "protocolBuffer": "PBPointerEvents"
       },
       "data": {
-        "513": {
+        "516": {
           "json": {
             "pointerEvents": [
               {
                 "eventType": 1,
                 "eventInfo": {
-                  "button": 1,
-                  "hoverText": "Pick Up",
+                  "button": 10,
+                  "hoverText": "",
                   "maxDistance": 10,
-                  "showFeedback": true,
-                  "showHighlight": true
+                  "showFeedback": true
                 }
               }
             ]
           }
         },
-        "515": {
+        "520": {
           "json": {
             "pointerEvents": [
               {
@@ -511,36 +497,6 @@
                 "eventInfo": {
                   "button": 1,
                   "hoverText": "Activate / Deactivate",
-                  "maxDistance": 10,
-                  "showFeedback": true
-                }
-              }
-            ]
-          }
-        },
-        "522": {
-          "json": {
-            "pointerEvents": [
-              {
-                "eventType": 1,
-                "eventInfo": {
-                  "button": 10,
-                  "hoverText": "",
-                  "maxDistance": 10,
-                  "showFeedback": true
-                }
-              }
-            ]
-          }
-        },
-        "524": {
-          "json": {
-            "pointerEvents": [
-              {
-                "eventType": 1,
-                "eventInfo": {
-                  "button": 10,
-                  "hoverText": "",
                   "maxDistance": 10,
                   "showFeedback": true
                 }
@@ -567,7 +523,7 @@
         "serializationType": "map"
       },
       "data": {
-        "515": {
+        "516": {
           "json": {
             "componentIds": [
               1042,
@@ -576,16 +532,7 @@
             ]
           }
         },
-        "522": {
-          "json": {
-            "componentIds": [
-              1042,
-              1020,
-              2709697014
-            ]
-          }
-        },
-        "524": {
+        "520": {
           "json": {
             "componentIds": [
               1042,
@@ -630,9 +577,9 @@
         "serializationType": "map"
       },
       "data": {
-        "518": {
+        "516": {
           "json": {
-            "gizmo": 3
+            "gizmo": 0
           }
         }
       }
@@ -925,9 +872,7 @@
             "categories": [],
             "author": "eziomenutti",
             "email": "ezio.menutti@decentraland.org",
-            "tags": [
-              ""
-            ],
+            "tags": [],
             "layout": {
               "base": {
                 "x": 0,
@@ -2621,13 +2566,11 @@
                 "open": true,
                 "children": [
                   512,
-                  522,
-                  524,
                   525,
-                  515,
                   514,
                   518,
-                  513
+                  517,
+                  528
                 ]
               },
               {
@@ -2643,19 +2586,7 @@
                 "children": []
               },
               {
-                "entity": 522,
-                "children": []
-              },
-              {
-                "entity": 524,
-                "children": []
-              },
-              {
                 "entity": 525,
-                "children": []
-              },
-              {
-                "entity": 515,
                 "children": []
               },
               {
@@ -2668,7 +2599,23 @@
                 "children": []
               },
               {
-                "entity": 513,
+                "entity": 516,
+                "children": []
+              },
+              {
+                "entity": 517,
+                "open": true,
+                "children": [
+                  520,
+                  516
+                ]
+              },
+              {
+                "entity": 520,
+                "children": []
+              },
+              {
+                "entity": 528,
                 "children": []
               }
             ]
@@ -2946,92 +2893,42 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
+        "516": {
           "json": {
-            "id": 26,
+            "id": 28,
             "value": [
               {
-                "name": "Pick Up",
-                "type": "start_delay",
-                "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.1 }",
+                "name": "Open",
+                "type": "set_state",
+                "jsonPayload": "{ \"state\": \"Open\" }",
                 "allowedInBasicView": true
               },
               {
-                "name": "Set Ready",
+                "name": "Close",
                 "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Ready\" }"
-              },
-              {
-                "name": "Attach To Player",
-                "type": "attach_to_player",
-                "jsonPayload": "{ \"anchorPointId\": 3 }"
-              },
-              {
-                "name": "Play Attack Emote",
-                "type": "play_custom_emote",
-                "jsonPayload": "{\"src\":\"assets/asset-packs/sword/sword_attack.glb\",\"loop\":false}"
-              },
-              {
-                "name": "Damage",
-                "type": "damage",
-                "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"non_player\" }",
-                "basicViewId": "action-damage"
-              },
-              {
-                "name": "Set Cooling Down",
-                "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Cooling Down\" }"
-              },
-              {
-                "name": "Start Cool Down Delay",
-                "type": "start_delay",
-                "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.5 }",
-                "allowedInBasicView": true,
-                "basicViewId": "action-cool-down-delay"
-              },
-              {
-                "name": "Cool Down",
-                "type": "batch",
-                "jsonPayload": "{ \"actions\": [\"Set Cooling Down\", \"Start Cool Down Delay\"] }"
-              },
-              {
-                "name": "Attack",
-                "type": "batch",
-                "jsonPayload": "{ \"actions\": [\"Play Attack Emote\", \"Damage\", \"Cool Down\"] }"
-              }
-            ]
-          }
-        },
-        "515": {
-          "json": {
-            "id": 20,
-            "value": [
-              {
-                "name": "Activate",
-                "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Activated\" }",
+                "jsonPayload": "{ \"state\": \"Closed\" }",
                 "allowedInBasicView": true
               },
               {
-                "name": "Deactivate",
+                "name": "Open or Close",
                 "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Deactivated\" }",
+                "jsonPayload": "{ \"state\": \"Toggle\" }",
                 "allowedInBasicView": true
               },
               {
                 "name": "Play Sound",
                 "type": "play_sound",
-                "jsonPayload": "{\"src\":\"assets/asset-packs/pirate_lever/sound.mp3\"}"
+                "jsonPayload": "{\"src\":\"assets/custom/doors+handle/sound.mp3\"}"
               },
               {
-                "name": "Play Activate Animation",
+                "name": "Play Open Animation",
                 "type": "play_animation",
-                "jsonPayload": "{ \"animation\": \"activate\" }"
+                "jsonPayload": "{ \"animation\": \"Open\" }"
               },
               {
-                "name": "Play Deactivate Animation",
+                "name": "Play Close Animation",
                 "type": "play_animation",
-                "jsonPayload": "{ \"animation\": \"deactivate\" }"
+                "jsonPayload": "{ \"animation\": \"Close\" }"
               }
             ]
           }
@@ -3048,82 +2945,36 @@
             ]
           }
         },
-        "522": {
+        "520": {
           "json": {
-            "id": 12,
+            "id": 30,
             "value": [
               {
-                "name": "Open",
+                "name": "Activate",
                 "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Open\" }",
+                "jsonPayload": "{ \"state\": \"Activated\" }",
                 "allowedInBasicView": true
               },
               {
-                "name": "Close",
+                "name": "Deactivate",
                 "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Closed\" }",
-                "allowedInBasicView": true
-              },
-              {
-                "name": "Open or Close",
-                "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Toggle\" }",
+                "jsonPayload": "{ \"state\": \"Deactivated\" }",
                 "allowedInBasicView": true
               },
               {
                 "name": "Play Sound",
                 "type": "play_sound",
-                "jsonPayload": "{\"src\":\"assets/asset-packs/old_wooden_door/sound.mp3\"}"
+                "jsonPayload": "{\"src\":\"assets/custom/doors+handle/sound.mp3\"}"
               },
               {
-                "name": "Play Open Animation",
+                "name": "Play Activate Animation",
                 "type": "play_animation",
-                "jsonPayload": "{ \"animation\": \"Open\" }"
+                "jsonPayload": "{ \"animation\": \"activate\" }"
               },
               {
-                "name": "Play Close Animation",
+                "name": "Play Deactivate Animation",
                 "type": "play_animation",
-                "jsonPayload": "{ \"animation\": \"Close\" }"
-              }
-            ]
-          }
-        },
-        "524": {
-          "json": {
-            "id": 16,
-            "value": [
-              {
-                "name": "Open",
-                "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Open\" }",
-                "allowedInBasicView": true
-              },
-              {
-                "name": "Close",
-                "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Closed\" }",
-                "allowedInBasicView": true
-              },
-              {
-                "name": "Open or Close",
-                "type": "set_state",
-                "jsonPayload": "{ \"state\": \"Toggle\" }",
-                "allowedInBasicView": true
-              },
-              {
-                "name": "Play Sound",
-                "type": "play_sound",
-                "jsonPayload": "{\"src\":\"assets/asset-packs/old_wooden_door/sound.mp3\"}"
-              },
-              {
-                "name": "Play Open Animation",
-                "type": "play_animation",
-                "jsonPayload": "{ \"animation\": \"Open\" }"
-              },
-              {
-                "name": "Play Close Animation",
-                "type": "play_animation",
-                "jsonPayload": "{ \"animation\": \"Close\" }"
+                "jsonPayload": "{ \"animation\": \"deactivate\" }"
               }
             ]
           }
@@ -3136,6 +2987,31 @@
                 "name": "MovePlayer",
                 "type": "move_player",
                 "jsonPayload": "{\"position\":{\"x\":79,\"y\":40,\"z\":143.25}}"
+              }
+            ]
+          }
+        },
+        "528": {
+          "json": {
+            "id": 40,
+            "value": [
+              {
+                "name": "Heal",
+                "type": "heal_player",
+                "jsonPayload": "{ \"multiplier\": 100 }",
+                "basicViewId": "action-heal-player"
+              },
+              {
+                "name": "Remove",
+                "type": "remove_entity",
+                "jsonPayload": "{ }",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Item",
+                "type": "batch",
+                "jsonPayload": "{ \"actions\": [\"Heal Player\", \"Remove\"] }",
+                "allowedInBasicView": true
               }
             ]
           }
@@ -3162,7 +3038,7 @@
         "0": {
           "json": {
             "id": 0,
-            "value": 27
+            "value": 40
           }
         }
       }
@@ -3337,146 +3213,100 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
+        "516": {
           "json": {
             "value": [
               {
                 "type": "on_input_action",
                 "conditions": [],
-                "actions": [
-                  {
-                    "id": 26,
-                    "name": "Pick Up"
-                  }
-                ]
+                "actions": [],
+                "basicViewId": "trigger-when-clicked"
               },
               {
                 "type": "on_state_change",
                 "conditions": [
                   {
-                    "id": 27,
+                    "id": 31,
                     "type": "when_state_is",
-                    "value": "Ready"
+                    "value": "Open"
                   }
                 ],
                 "actions": [
                   {
-                    "id": 26,
-                    "name": "Attach To Player"
-                  }
-                ]
-              },
-              {
-                "type": "on_global_primary",
-                "conditions": [
-                  {
-                    "id": 27,
-                    "type": "when_state_is",
-                    "value": "Ready"
-                  }
-                ],
-                "actions": [
-                  {
-                    "id": 26,
-                    "name": "Attack"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "515": {
-          "json": {
-            "value": [
-              {
-                "type": "on_input_action",
-                "conditions": [
-                  {
-                    "id": 21,
-                    "type": "when_state_is",
-                    "value": "Deactivated"
-                  }
-                ],
-                "actions": [
-                  {
-                    "id": 20,
-                    "name": "Activate"
-                  }
-                ]
-              },
-              {
-                "type": "on_input_action",
-                "conditions": [
-                  {
-                    "id": 21,
-                    "type": "when_state_is",
-                    "value": "Activated"
-                  }
-                ],
-                "actions": [
-                  {
-                    "id": 20,
-                    "name": "Deactivate"
-                  }
-                ]
-              },
-              {
-                "type": "on_state_change",
-                "conditions": [
-                  {
-                    "id": 21,
-                    "type": "when_state_is",
-                    "value": "Activated"
-                  }
-                ],
-                "actions": [
-                  {
-                    "id": 20,
-                    "name": "Play Activate Animation"
+                    "id": 28,
+                    "name": "Play Open Animation"
                   },
                   {
-                    "id": 20,
+                    "id": 28,
                     "name": "Play Sound"
-                  },
-                  {
-                    "id": 12,
-                    "name": "Open"
-                  },
-                  {
-                    "id": 16,
-                    "name": "Open"
                   }
                 ],
-                "basicViewId": "trigger-when-activated"
+                "basicViewId": "trigger-when-opened"
               },
               {
                 "type": "on_state_change",
                 "conditions": [
                   {
-                    "id": 21,
+                    "id": 31,
                     "type": "when_state_is",
-                    "value": "Deactivated"
+                    "value": "Closed"
                   }
                 ],
                 "actions": [
                   {
-                    "id": 20,
-                    "name": "Play Deactivate Animation"
+                    "id": 28,
+                    "name": "Play Close Animation"
                   },
                   {
-                    "id": 20,
+                    "id": 28,
                     "name": "Play Sound"
+                  }
+                ],
+                "basicViewId": "trigger-when-closed"
+              },
+              {
+                "type": "on_state_change",
+                "conditions": [
+                  {
+                    "id": 31,
+                    "type": "when_state_is",
+                    "value": "Toggle"
                   },
                   {
-                    "id": 12,
-                    "name": "Close"
-                  },
+                    "id": 31,
+                    "type": "when_previous_state_is",
+                    "value": "Open"
+                  }
+                ],
+                "operation": "and",
+                "actions": [
                   {
-                    "id": 16,
+                    "id": 28,
                     "name": "Close"
                   }
+                ]
+              },
+              {
+                "type": "on_state_change",
+                "conditions": [
+                  {
+                    "id": 31,
+                    "type": "when_state_is",
+                    "value": "Toggle"
+                  },
+                  {
+                    "id": 31,
+                    "type": "when_previous_state_is",
+                    "value": "Closed"
+                  }
                 ],
-                "basicViewId": "trigger-when-deactivated"
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 28,
+                    "name": "Open"
+                  }
+                ]
               }
             ]
           }
@@ -3497,174 +3327,38 @@
             ]
           }
         },
-        "522": {
+        "520": {
           "json": {
             "value": [
               {
                 "type": "on_input_action",
-                "conditions": [],
-                "actions": [],
-                "basicViewId": "trigger-when-clicked"
-              },
-              {
-                "type": "on_state_change",
                 "conditions": [
                   {
-                    "id": 13,
+                    "id": 33,
                     "type": "when_state_is",
-                    "value": "Open"
+                    "value": "Deactivated"
                   }
                 ],
                 "actions": [
                   {
-                    "id": 12,
-                    "name": "Play Open Animation"
-                  },
-                  {
-                    "id": 12,
-                    "name": "Play Sound"
-                  }
-                ],
-                "basicViewId": "trigger-when-opened"
-              },
-              {
-                "type": "on_state_change",
-                "conditions": [
-                  {
-                    "id": 13,
-                    "type": "when_state_is",
-                    "value": "Closed"
-                  }
-                ],
-                "actions": [
-                  {
-                    "id": 12,
-                    "name": "Play Close Animation"
-                  },
-                  {
-                    "id": 12,
-                    "name": "Play Sound"
-                  }
-                ],
-                "basicViewId": "trigger-when-closed"
-              },
-              {
-                "type": "on_state_change",
-                "conditions": [
-                  {
-                    "id": 13,
-                    "type": "when_state_is",
-                    "value": "Toggle"
-                  },
-                  {
-                    "id": 13,
-                    "type": "when_previous_state_is",
-                    "value": "Open"
-                  }
-                ],
-                "operation": "and",
-                "actions": [
-                  {
-                    "id": 12,
-                    "name": "Close"
+                    "id": 30,
+                    "name": "Activate"
                   }
                 ]
               },
-              {
-                "type": "on_state_change",
-                "conditions": [
-                  {
-                    "id": 13,
-                    "type": "when_state_is",
-                    "value": "Toggle"
-                  },
-                  {
-                    "id": 13,
-                    "type": "when_previous_state_is",
-                    "value": "Closed"
-                  }
-                ],
-                "operation": "and",
-                "actions": [
-                  {
-                    "id": 12,
-                    "name": "Open"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "524": {
-          "json": {
-            "value": [
               {
                 "type": "on_input_action",
-                "conditions": [],
-                "actions": [],
-                "basicViewId": "trigger-when-clicked"
-              },
-              {
-                "type": "on_state_change",
                 "conditions": [
                   {
-                    "id": 17,
+                    "id": 33,
                     "type": "when_state_is",
-                    "value": "Open"
+                    "value": "Activated"
                   }
                 ],
                 "actions": [
                   {
-                    "id": 16,
-                    "name": "Play Open Animation"
-                  },
-                  {
-                    "id": 16,
-                    "name": "Play Sound"
-                  }
-                ],
-                "basicViewId": "trigger-when-opened"
-              },
-              {
-                "type": "on_state_change",
-                "conditions": [
-                  {
-                    "id": 17,
-                    "type": "when_state_is",
-                    "value": "Closed"
-                  }
-                ],
-                "actions": [
-                  {
-                    "id": 16,
-                    "name": "Play Close Animation"
-                  },
-                  {
-                    "id": 16,
-                    "name": "Play Sound"
-                  }
-                ],
-                "basicViewId": "trigger-when-closed"
-              },
-              {
-                "type": "on_state_change",
-                "conditions": [
-                  {
-                    "id": 17,
-                    "type": "when_state_is",
-                    "value": "Toggle"
-                  },
-                  {
-                    "id": 17,
-                    "type": "when_previous_state_is",
-                    "value": "Open"
-                  }
-                ],
-                "operation": "and",
-                "actions": [
-                  {
-                    "id": 16,
-                    "name": "Close"
+                    "id": 30,
+                    "name": "Deactivate"
                   }
                 ]
               },
@@ -3672,23 +3366,59 @@
                 "type": "on_state_change",
                 "conditions": [
                   {
-                    "id": 17,
+                    "id": 33,
                     "type": "when_state_is",
-                    "value": "Toggle"
-                  },
-                  {
-                    "id": 17,
-                    "type": "when_previous_state_is",
-                    "value": "Closed"
+                    "value": "Activated"
                   }
                 ],
-                "operation": "and",
                 "actions": [
                   {
-                    "id": 16,
+                    "id": 30,
+                    "name": "Play Activate Animation"
+                  },
+                  {
+                    "id": 30,
+                    "name": "Play Sound"
+                  },
+                  {
+                    "id": 29,
+                    "name": "Open"
+                  },
+                  {
+                    "id": 28,
                     "name": "Open"
                   }
-                ]
+                ],
+                "basicViewId": "trigger-when-activated"
+              },
+              {
+                "type": "on_state_change",
+                "conditions": [
+                  {
+                    "id": 33,
+                    "type": "when_state_is",
+                    "value": "Deactivated"
+                  }
+                ],
+                "actions": [
+                  {
+                    "id": 30,
+                    "name": "Play Deactivate Animation"
+                  },
+                  {
+                    "id": 30,
+                    "name": "Play Sound"
+                  },
+                  {
+                    "id": 29,
+                    "name": "Close"
+                  },
+                  {
+                    "id": 28,
+                    "name": "Close"
+                  }
+                ],
+                "basicViewId": "trigger-when-deactivated"
               }
             ]
           }
@@ -3705,6 +3435,23 @@
                     "name": "MovePlayer"
                   }
                 ]
+              }
+            ]
+          }
+        },
+        "528": {
+          "json": {
+            "value": [
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "actions": [
+                  {
+                    "id": 40,
+                    "name": "Item"
+                  }
+                ],
+                "basicViewId": "trigger-when-clicked"
               }
             ]
           }
@@ -3756,47 +3503,25 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
+        "516": {
           "json": {
-            "id": 27,
+            "id": 31,
             "value": [
-              "Idle",
-              "Ready",
-              "Cooling Down"
+              "Open",
+              "Closed",
+              "Toggle"
             ],
-            "defaultValue": "Idle"
+            "defaultValue": "Closed"
           }
         },
-        "515": {
+        "520": {
           "json": {
-            "id": 21,
+            "id": 33,
             "value": [
               "Activated",
               "Deactivated"
             ],
             "defaultValue": "Deactivated"
-          }
-        },
-        "522": {
-          "json": {
-            "id": 13,
-            "value": [
-              "Open",
-              "Closed",
-              "Toggle"
-            ],
-            "defaultValue": "Closed"
-          }
-        },
-        "524": {
-          "json": {
-            "id": 17,
-            "value": [
-              "Open",
-              "Closed",
-              "Toggle"
-            ],
-            "defaultValue": "Closed"
           }
         }
       }
@@ -3821,26 +3546,48 @@
         "512": {
           "json": {}
         },
-        "513": {
-          "json": {}
-        },
         "514": {
           "json": {}
         },
-        "515": {
+        "516": {
+          "json": {
+            "porportionalScaling": true
+          }
+        },
+        "517": {
           "json": {}
         },
         "518": {
           "json": {}
         },
-        "522": {
-          "json": {}
-        },
-        "524": {
+        "520": {
           "json": {}
         },
         "525": {
           "json": {}
+        },
+        "528": {
+          "json": {}
+        }
+      }
+    },
+    {
+      "name": "inspector::Hide",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "boolean",
+            "serializationType": "boolean"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "518": {
+          "json": {
+            "value": true
+          }
         }
       }
     },
@@ -4026,28 +3773,35 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
+        "516": {
           "json": {
-            "isBasicViewEnabled": false,
-            "componentName": "Sword",
+            "isBasicViewEnabled": true,
+            "componentName": "Door",
             "fields": [
               {
-                "name": "Damage",
-                "type": "asset-packs::Actions",
-                "layout": "{\"radius\": { \"field\": \"TextField\", \"type\": \"number\" }, \"hits\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Damage Points\" }, \"layer\": { \"field\": \"Dropdown\", \"label\": \"Damage Target\" }}",
-                "basicViewId": "action-damage"
+                "name": "Hover Text",
+                "type": "core::PointerEvents"
               },
               {
-                "name": "Attack Cooldown",
-                "type": "asset-packs::Actions",
-                "layout": "{\"timeout\": { \"field\": \"RangeField\", \"label\": \"Attack Cooldown\", \"step\": \"0.1\" } }",
-                "basicViewId": "action-cool-down-delay"
+                "name": "When Clicked",
+                "type": "asset-packs::Triggers",
+                "basicViewId": "trigger-when-clicked"
+              },
+              {
+                "name": "When Opened",
+                "type": "asset-packs::Triggers",
+                "basicViewId": "trigger-when-opened"
+              },
+              {
+                "name": "When Closed",
+                "type": "asset-packs::Triggers",
+                "basicViewId": "trigger-when-closed"
               }
             ],
-            "assetId": "9a391273-b30b-4f35-a1a3-83d17728c0ed"
+            "assetId": "d02dfca6-e1bc-4f51-a1c1-48ca09d7c954"
           }
         },
-        "515": {
+        "520": {
           "json": {
             "isBasicViewEnabled": true,
             "componentName": "Lever",
@@ -4067,63 +3821,42 @@
                 "basicViewId": "trigger-when-deactivated"
               }
             ],
-            "assetId": "37e449e5-9298-41b6-8c9a-a6d12b45bdd2"
+            "assetId": "d02dfca6-e1bc-4f51-a1c1-48ca09d7c954"
           }
         },
-        "522": {
+        "528": {
           "json": {
-            "isBasicViewEnabled": true,
-            "componentName": "Door",
+            "isBasicViewEnabled": false,
+            "componentName": "First Aid",
             "fields": [
               {
-                "name": "Hover Text",
-                "type": "core::PointerEvents"
-              },
-              {
-                "name": "When Clicked",
-                "type": "asset-packs::Triggers",
-                "basicViewId": "trigger-when-clicked"
-              },
-              {
-                "name": "When Opened",
-                "type": "asset-packs::Triggers",
-                "basicViewId": "trigger-when-opened"
-              },
-              {
-                "name": "When Closed",
-                "type": "asset-packs::Triggers",
-                "basicViewId": "trigger-when-closed"
+                "name": "Healing Points",
+                "type": "asset-packs::Actions",
+                "layout": "{\"multiplier\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Healing Points Amount\" } }",
+                "basicViewId": "action-heal-player"
               }
             ],
-            "assetId": "ce058a68-1635-472c-b4b5-4bc9f4b4277f"
+            "assetId": "b3158511-bda8-4459-a213-d90df94f1e5b"
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::CustomAsset",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "assetId": {
+            "type": "string",
+            "serializationType": "utf8-string"
           }
         },
-        "524": {
+        "serializationType": "map"
+      },
+      "data": {
+        "517": {
           "json": {
-            "isBasicViewEnabled": true,
-            "componentName": "Door",
-            "fields": [
-              {
-                "name": "Hover Text",
-                "type": "core::PointerEvents"
-              },
-              {
-                "name": "When Clicked",
-                "type": "asset-packs::Triggers",
-                "basicViewId": "trigger-when-clicked"
-              },
-              {
-                "name": "When Opened",
-                "type": "asset-packs::Triggers",
-                "basicViewId": "trigger-when-opened"
-              },
-              {
-                "name": "When Closed",
-                "type": "asset-packs::Triggers",
-                "basicViewId": "trigger-when-closed"
-              }
-            ],
-            "assetId": "ce058a68-1635-472c-b4b5-4bc9f4b4277f"
+            "assetId": "d02dfca6-e1bc-4f51-a1c1-48ca09d7c954"
           }
         }
       }
