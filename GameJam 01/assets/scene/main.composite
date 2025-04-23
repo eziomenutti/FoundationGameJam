@@ -257,6 +257,90 @@
             },
             "parent": 0
           }
+        },
+        "531": {
+          "json": {
+            "position": {
+              "x": 78.9800033569336,
+              "y": 32,
+              "z": 118.54000091552734
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
+          }
+        },
+        "532": {
+          "json": {
+            "position": {
+              "x": 42.25,
+              "y": 32,
+              "z": 83
+            },
+            "rotation": {
+              "x": 0.7071067690849304,
+              "y": 0,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 2,
+              "y": 1.9999998807907104,
+              "z": 1.9999998807907104
+            },
+            "parent": 0
+          }
+        },
+        "535": {
+          "json": {
+            "position": {
+              "x": 45,
+              "y": 32,
+              "z": 78.5
+            },
+            "rotation": {
+              "x": 0.7071067690849304,
+              "y": 0,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 2,
+              "y": 1.999999761581421,
+              "z": 1.999999761581421
+            },
+            "parent": 0
+          }
+        },
+        "536": {
+          "json": {
+            "position": {
+              "x": 40.25,
+              "y": 32,
+              "z": 78.5
+            },
+            "rotation": {
+              "x": 0.7071067690849304,
+              "y": 0,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 2,
+              "y": 1.9999996423721313,
+              "z": 1.9999996423721313
+            },
+            "parent": 0
+          }
         }
       }
     },
@@ -354,6 +438,26 @@
           "json": {
             "states": []
           }
+        },
+        "531": {
+          "json": {
+            "states": []
+          }
+        },
+        "532": {
+          "json": {
+            "states": []
+          }
+        },
+        "535": {
+          "json": {
+            "states": []
+          }
+        },
+        "536": {
+          "json": {
+            "states": []
+          }
         }
       }
     },
@@ -404,6 +508,34 @@
         "528": {
           "json": {
             "src": "assets/scene/Models/snorlax/snorlax.glb",
+            "visibleMeshesCollisionMask": 2,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "531": {
+          "json": {
+            "src": "assets/asset-packs/sword/sword.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "532": {
+          "json": {
+            "src": "assets/scene/Models/diglett/diglett.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "535": {
+          "json": {
+            "src": "assets/scene/Models/diglett/diglett.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "536": {
+          "json": {
+            "src": "assets/scene/Models/diglett/diglett.glb",
             "visibleMeshesCollisionMask": 1,
             "invisibleMeshesCollisionMask": 2
           }
@@ -460,7 +592,27 @@
         },
         "528": {
           "json": {
-            "value": "Pokemon_Pikachu"
+            "value": "Pokemon_Snorlax"
+          }
+        },
+        "531": {
+          "json": {
+            "value": "Sword"
+          }
+        },
+        "532": {
+          "json": {
+            "value": "diglett.glb"
+          }
+        },
+        "535": {
+          "json": {
+            "value": "diglett.glb_2"
+          }
+        },
+        "536": {
+          "json": {
+            "value": "diglett.glb_3"
           }
         }
       }
@@ -497,6 +649,21 @@
                 "eventInfo": {
                   "button": 1,
                   "hoverText": "Activate / Deactivate",
+                  "maxDistance": 10,
+                  "showFeedback": true
+                }
+              }
+            ]
+          }
+        },
+        "531": {
+          "json": {
+            "pointerEvents": [
+              {
+                "eventType": 1,
+                "eventInfo": {
+                  "button": 1,
+                  "hoverText": "Pick Up",
                   "maxDistance": 10,
                   "showFeedback": true
                 }
@@ -577,7 +744,7 @@
         "serializationType": "map"
       },
       "data": {
-        "516": {
+        "536": {
           "json": {
             "gizmo": 0
           }
@@ -2570,7 +2737,11 @@
                   514,
                   518,
                   517,
-                  528
+                  528,
+                  531,
+                  532,
+                  535,
+                  536
                 ]
               },
               {
@@ -2616,6 +2787,22 @@
               },
               {
                 "entity": 528,
+                "children": []
+              },
+              {
+                "entity": 531,
+                "children": []
+              },
+              {
+                "entity": 532,
+                "children": []
+              },
+              {
+                "entity": 535,
+                "children": []
+              },
+              {
+                "entity": 536,
                 "children": []
               }
             ]
@@ -3015,6 +3202,113 @@
               }
             ]
           }
+        },
+        "531": {
+          "json": {
+            "id": 41,
+            "value": [
+              {
+                "name": "Pick Up",
+                "type": "start_delay",
+                "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.1 }",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Set Ready",
+                "type": "set_state",
+                "jsonPayload": "{ \"state\": \"Ready\" }"
+              },
+              {
+                "name": "Attach To Player",
+                "type": "attach_to_player",
+                "jsonPayload": "{ \"anchorPointId\": 3 }"
+              },
+              {
+                "name": "Play Attack Emote",
+                "type": "play_custom_emote",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/sword/sword_attack.glb\",\"loop\":false}"
+              },
+              {
+                "name": "Damage",
+                "type": "damage",
+                "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"non_player\" }",
+                "basicViewId": "action-damage"
+              },
+              {
+                "name": "Set Cooling Down",
+                "type": "set_state",
+                "jsonPayload": "{ \"state\": \"Cooling Down\" }"
+              },
+              {
+                "name": "Start Cool Down Delay",
+                "type": "start_delay",
+                "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.5 }",
+                "allowedInBasicView": true,
+                "basicViewId": "action-cool-down-delay"
+              },
+              {
+                "name": "Cool Down",
+                "type": "batch",
+                "jsonPayload": "{ \"actions\": [\"Set Cooling Down\", \"Start Cool Down Delay\"] }"
+              },
+              {
+                "name": "Attack",
+                "type": "batch",
+                "jsonPayload": "{ \"actions\": [\"Play Attack Emote\", \"Damage\", \"Cool Down\"] }"
+              }
+            ]
+          }
+        },
+        "532": {
+          "json": {
+            "id": 43,
+            "value": [
+              {
+                "name": "Show Diglett",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              },
+              {
+                "name": "Hide Diglett",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":2}"
+              }
+            ]
+          }
+        },
+        "535": {
+          "json": {
+            "id": 44,
+            "value": [
+              {
+                "name": "Show Diglett",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              },
+              {
+                "name": "Hide Diglett",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":2}"
+              }
+            ]
+          }
+        },
+        "536": {
+          "json": {
+            "id": 45,
+            "value": [
+              {
+                "name": "Show Diglett",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              },
+              {
+                "name": "Hide Diglett",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":2}"
+              }
+            ]
+          }
         }
       }
     },
@@ -3038,7 +3332,7 @@
         "0": {
           "json": {
             "id": 0,
-            "value": 40
+            "value": 45
           }
         }
       }
@@ -3445,13 +3739,151 @@
               {
                 "type": "on_player_enters_area",
                 "conditions": [],
+                "actions": [],
+                "basicViewId": "trigger-when-clicked"
+              }
+            ]
+          }
+        },
+        "531": {
+          "json": {
+            "value": [
+              {
+                "type": "on_input_action",
+                "conditions": [],
                 "actions": [
                   {
-                    "id": 40,
-                    "name": "Item"
+                    "id": 41,
+                    "name": "Pick Up"
+                  }
+                ]
+              },
+              {
+                "type": "on_state_change",
+                "conditions": [
+                  {
+                    "id": 42,
+                    "type": "when_state_is",
+                    "value": "Ready"
                   }
                 ],
-                "basicViewId": "trigger-when-clicked"
+                "actions": [
+                  {
+                    "id": 41,
+                    "name": "Attach To Player"
+                  }
+                ]
+              },
+              {
+                "type": "on_global_primary",
+                "conditions": [
+                  {
+                    "id": 42,
+                    "type": "when_state_is",
+                    "value": "Ready"
+                  }
+                ],
+                "actions": [
+                  {
+                    "id": 41,
+                    "name": "Attack"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "532": {
+          "json": {
+            "value": [
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 43,
+                    "name": "Hide Diglett"
+                  }
+                ]
+              },
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 44,
+                    "name": "Show Diglett"
+                  }
+                ]
+              },
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 45,
+                    "name": "Hide Diglett"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "535": {
+          "json": {
+            "value": [
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 43,
+                    "name": "Hide Diglett"
+                  }
+                ]
+              },
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 44,
+                    "name": "Hide Diglett"
+                  }
+                ]
+              },
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 45,
+                    "name": "Show Diglett"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "536": {
+          "json": {
+            "value": [
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 43,
+                    "name": "Hide Diglett"
+                  }
+                ]
               }
             ]
           }
@@ -3523,6 +3955,17 @@
             ],
             "defaultValue": "Deactivated"
           }
+        },
+        "531": {
+          "json": {
+            "id": 42,
+            "value": [
+              "Idle",
+              "Ready",
+              "Cooling Down"
+            ],
+            "defaultValue": "Idle"
+          }
         }
       }
     },
@@ -3567,6 +4010,18 @@
           "json": {}
         },
         "528": {
+          "json": {}
+        },
+        "531": {
+          "json": {}
+        },
+        "532": {
+          "json": {}
+        },
+        "535": {
+          "json": {}
+        },
+        "536": {
           "json": {}
         }
       }
@@ -3837,6 +4292,27 @@
               }
             ],
             "assetId": "b3158511-bda8-4459-a213-d90df94f1e5b"
+          }
+        },
+        "531": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "Sword",
+            "fields": [
+              {
+                "name": "Damage",
+                "type": "asset-packs::Actions",
+                "layout": "{\"radius\": { \"field\": \"TextField\", \"type\": \"number\" }, \"hits\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Damage Points\" }, \"layer\": { \"field\": \"Dropdown\", \"label\": \"Damage Target\" }}",
+                "basicViewId": "action-damage"
+              },
+              {
+                "name": "Attack Cooldown",
+                "type": "asset-packs::Actions",
+                "layout": "{\"timeout\": { \"field\": \"RangeField\", \"label\": \"Attack Cooldown\", \"step\": \"0.1\" } }",
+                "basicViewId": "action-cool-down-delay"
+              }
+            ],
+            "assetId": "9a391273-b30b-4f35-a1a3-83d17728c0ed"
           }
         }
       }
