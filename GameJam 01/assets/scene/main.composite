@@ -216,48 +216,6 @@
             "parent": 0
           }
         },
-        "518": {
-          "json": {
-            "position": {
-              "x": 62.45954513549805,
-              "y": 33.255069732666016,
-              "z": 90.4483642578125
-            },
-            "scale": {
-              "x": 2.999999761581421,
-              "y": 3,
-              "z": 2.999999761581421
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0.5514241456985474,
-              "z": 0,
-              "w": 0.8342249989509583
-            },
-            "parent": 0
-          }
-        },
-        "519": {
-          "json": {
-            "position": {
-              "x": 30.398685455322266,
-              "y": 33.75,
-              "z": 74.05829620361328
-            },
-            "scale": {
-              "x": 3,
-              "y": 3,
-              "z": 3
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "parent": 0
-          }
-        },
         "520": {
           "json": {
             "position": {
@@ -342,6 +300,27 @@
             "parent": 0
           }
         },
+        "524": {
+          "json": {
+            "position": {
+              "x": 62.45999526977539,
+              "y": 33.2599983215332,
+              "z": 90.44999694824219
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.5514274835586548,
+              "z": 0,
+              "w": 0.8342228531837463
+            },
+            "scale": {
+              "x": 3,
+              "y": 3,
+              "z": 3
+            },
+            "parent": 0
+          }
+        },
         "525": {
           "json": {
             "position": {
@@ -391,16 +370,16 @@
               "y": 0,
               "z": 0
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -769,16 +748,16 @@
               "y": 34.814605712890625,
               "z": 81.21551513671875
             },
+            "scale": {
+              "x": 3.999999523162842,
+              "y": 4,
+              "z": 3.999999523162842
+            },
             "rotation": {
               "x": 0,
               "y": 0.7071067690849304,
               "z": 0,
               "w": 0.7071067690849304
-            },
-            "scale": {
-              "x": 3.999999523162842,
-              "y": 4,
-              "z": 3.999999523162842
             },
             "parent": 527
           }
@@ -1105,16 +1084,16 @@
               "y": 33.64335250854492,
               "z": 138.24903869628906
             },
+            "scale": {
+              "x": 0.9999998211860657,
+              "y": 1,
+              "z": 0.9999998211860657
+            },
             "rotation": {
               "x": 0,
               "y": 0.7071067690849304,
               "z": 0,
               "w": 0.7071067690849304
-            },
-            "scale": {
-              "x": 0.9999998211860657,
-              "y": 1,
-              "z": 0.9999998211860657
             },
             "parent": 0
           }
@@ -1122,20 +1101,20 @@
         "562": {
           "json": {
             "position": {
-              "x": 0.8399999737739563,
-              "y": -0.27000001072883606,
-              "z": -3.8499999046325684
+              "x": 0.8399962782859802,
+              "y": -0.2700004577636719,
+              "z": -3.850001335144043
+            },
+            "rotation": {
+              "x": 0,
+              "y": 7.210634778880617e-16,
+              "z": 0,
+              "w": 1
             },
             "scale": {
               "x": 2,
               "y": 2,
               "z": 2
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
             },
             "parent": 561
           }
@@ -1143,20 +1122,20 @@
         "563": {
           "json": {
             "position": {
-              "x": 0.8371259570121765,
+              "x": 0.8371276259422302,
               "y": -0.3368186950683594,
-              "z": -3.959318161010742
+              "z": -3.9593191146850586
+            },
+            "rotation": {
+              "x": 0,
+              "y": 1.1604994593028236e-16,
+              "z": 0,
+              "w": 1
             },
             "scale": {
               "x": 5,
               "y": 5,
               "z": 5
-            },
-            "rotation": {
-              "x": 0,
-              "y": -3.0813923596962126e-15,
-              "z": 0,
-              "w": 1
             },
             "parent": 561
           }
@@ -1168,16 +1147,16 @@
               "y": -0.2839088439941406,
               "z": 1.9575332403182983
             },
+            "scale": {
+              "x": 4,
+              "y": 4,
+              "z": 4
+            },
             "rotation": {
               "x": 0,
               "y": -5.364274478038061e-15,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 4,
-              "y": 4,
-              "z": 4
             },
             "parent": 561
           }
@@ -1210,16 +1189,16 @@
               "y": 37.321529388427734,
               "z": 77.3883285522461
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0.007471788674592972,
               "z": 0,
               "w": 0.9999721050262451
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -1248,20 +1227,20 @@
         "568": {
           "json": {
             "position": {
-              "x": 108.4000015258789,
-              "y": 34.13999938964844,
-              "z": 69.66000366210938
+              "x": 112.45508575439453,
+              "y": 32.58000183105469,
+              "z": 87.5908432006836
+            },
+            "rotation": {
+              "x": 0.06737957149744034,
+              "y": -0.2581885755062103,
+              "z": 0.018054306507110596,
+              "w": 0.9635728597640991
             },
             "scale": {
               "x": 1,
               "y": 1,
               "z": 1
-            },
-            "rotation": {
-              "x": -0.04932527616620064,
-              "y": 0.7053843140602112,
-              "z": -0.04932527616620064,
-              "w": -0.7053843140602112
             },
             "parent": 0
           }
@@ -1294,16 +1273,16 @@
               "y": 32.5,
               "z": 80.56803894042969
             },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
             },
             "parent": 0
           }
@@ -1311,20 +1290,20 @@
         "571": {
           "json": {
             "position": {
-              "x": 99.14546966552734,
-              "y": 32.85137939453125,
-              "z": 136.6388702392578
-            },
-            "scale": {
-              "x": 1.0000003576278687,
-              "y": 1,
-              "z": 1.0000001192092896
+              "x": 95.53868103027344,
+              "y": 32.84999465942383,
+              "z": 138.7081298828125
             },
             "rotation": {
-              "x": 0.6952661871910095,
-              "y": 0.6665482521057129,
-              "z": 0.1288597583770752,
-              "w": 0.23603715002536774
+              "x": 0.575666606426239,
+              "y": 0.5043442845344543,
+              "z": 0.41061899065971375,
+              "w": 0.4956176280975342
+            },
+            "scale": {
+              "x": 0.9999999403953552,
+              "y": 1,
+              "z": 1
             },
             "parent": 0
           }
@@ -1374,20 +1353,20 @@
         "574": {
           "json": {
             "position": {
-              "x": 88.75,
-              "y": 32.849998474121094,
-              "z": 137.6750030517578
-            },
-            "scale": {
-              "x": 0.9999999403953552,
-              "y": 1,
-              "z": 1
+              "x": 99.21011352539062,
+              "y": 32.84999465942383,
+              "z": 135.8880615234375
             },
             "rotation": {
-              "x": 0.575666606426239,
-              "y": 0.5043442845344543,
-              "z": 0.41061899065971375,
-              "w": 0.49561765789985657
+              "x": 0.6952663660049438,
+              "y": 0.6665480732917786,
+              "z": 0.1288602650165558,
+              "w": 0.23603679239749908
+            },
+            "scale": {
+              "x": 0.9999998807907104,
+              "y": 1,
+              "z": 0.9999997615814209
             },
             "parent": 0
           }
@@ -1420,16 +1399,16 @@
               "y": 37.321529388427734,
               "z": 77.93634033203125
             },
+            "scale": {
+              "x": 0.9999998211860657,
+              "y": 1,
+              "z": 0.9999998211860657
+            },
             "rotation": {
               "x": 0,
               "y": 0.03098578006029129,
               "z": 0,
               "w": 0.9995198249816895
-            },
-            "scale": {
-              "x": 0.9999998211860657,
-              "y": 1,
-              "z": 0.9999998211860657
             },
             "parent": 0
           }
@@ -1441,16 +1420,16 @@
               "y": 38.18220520019531,
               "z": 77.41749572753906
             },
+            "scale": {
+              "x": 1.0000001192092896,
+              "y": 1.0000001192092896,
+              "z": 1
+            },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0.071832075715065,
               "w": 0.9974167346954346
-            },
-            "scale": {
-              "x": 1.0000001192092896,
-              "y": 1.0000001192092896,
-              "z": 1
             },
             "parent": 0
           }
@@ -1458,14 +1437,9 @@
         "578": {
           "json": {
             "position": {
-              "x": 83.38872528076172,
+              "x": 91.71736907958984,
               "y": 32.851375579833984,
-              "z": 129.24362182617188
-            },
-            "scale": {
-              "x": 0.9999997615814209,
-              "y": 0.9999998807907104,
-              "z": 1.000000238418579
+              "z": 138.18075561523438
             },
             "rotation": {
               "x": 0.6845837235450745,
@@ -1473,13 +1447,18 @@
               "z": -0.1770452857017517,
               "w": -0.06777320057153702
             },
+            "scale": {
+              "x": 0.9999997615814209,
+              "y": 0.9999998807907104,
+              "z": 1.000000238418579
+            },
             "parent": 0
           }
         },
         "579": {
           "json": {
             "position": {
-              "x": 59.62041091918945,
+              "x": 65.32275390625,
               "y": 31.59343147277832,
               "z": 82.38170623779297
             },
@@ -1584,20 +1563,209 @@
         "585": {
           "json": {
             "position": {
-              "x": 94.54922485351562,
+              "x": 94.5,
               "y": 33.75,
-              "z": 122.5945053100586
-            },
-            "scale": {
-              "x": 3,
-              "y": 3,
-              "z": 3
+              "z": 123.5
             },
             "rotation": {
               "x": 0,
               "y": 0.7071067690849304,
               "z": 0,
               "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 1.9999998807907104,
+              "y": 2,
+              "z": 1.9999998807907104
+            },
+            "parent": 0
+          }
+        },
+        "586": {
+          "json": {
+            "position": {
+              "x": 74.66157531738281,
+              "y": 43.73351287841797,
+              "z": 140.5
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "587": {
+          "json": {
+            "position": {
+              "x": 41.20597839355469,
+              "y": 36.45029830932617,
+              "z": 85.87135314941406
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "588": {
+          "json": {
+            "position": {
+              "x": 67.31062316894531,
+              "y": 31.59343147277832,
+              "z": 82.38170623779297
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1.7876322269439697,
+              "y": 1.9644016027450562,
+              "z": 30.21491241455078
+            },
+            "parent": 0
+          }
+        },
+        "589": {
+          "json": {
+            "position": {
+              "x": 62.56999969482422,
+              "y": 35.25,
+              "z": 137.25
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071067690849304,
+              "z": 0,
+              "w": -0.7071067690849304
+            },
+            "scale": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "parent": 0
+          }
+        },
+        "590": {
+          "json": {
+            "position": {
+              "x": 62.56999969482422,
+              "y": 35.25,
+              "z": 137.25
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071067690849304,
+              "z": 0,
+              "w": -0.7071067690849304
+            },
+            "scale": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "parent": 0
+          }
+        },
+        "592": {
+          "json": {
+            "position": {
+              "x": 83.73866271972656,
+              "y": 32.849998474121094,
+              "z": 136.99879455566406
+            },
+            "rotation": {
+              "x": 0.6952664852142334,
+              "y": 0.6665480136871338,
+              "z": 0.1288604438304901,
+              "w": 0.23603658378124237
+            },
+            "scale": {
+              "x": 0.9999997615814209,
+              "y": 0.9999998211860657,
+              "z": 0.9999995827674866
+            },
+            "parent": 0
+          }
+        },
+        "593": {
+          "json": {
+            "position": {
+              "x": 84.17351531982422,
+              "y": 32.85137939453125,
+              "z": 131.313232421875
+            },
+            "rotation": {
+              "x": 0.6845837235450745,
+              "y": 0.7038514614105225,
+              "z": -0.1770452857017517,
+              "w": -0.06777320057153702
+            },
+            "scale": {
+              "x": 0.9999997615814209,
+              "y": 0.9999998807907104,
+              "z": 1.000000238418579
+            },
+            "parent": 0
+          }
+        },
+        "594": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 0.0000057244433264713734,
+              "z": -0.27173900604248047
+            },
+            "rotation": {
+              "x": -0.7071067690849304,
+              "y": 0,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 544
+          }
+        },
+        "595": {
+          "json": {
+            "position": {
+              "x": 87.4837646484375,
+              "y": 32.85137939453125,
+              "z": 138.9829559326172
+            },
+            "rotation": {
+              "x": 0.6845837235450745,
+              "y": 0.7038514614105225,
+              "z": -0.17704527080059052,
+              "w": -0.06777321547269821
+            },
+            "scale": {
+              "x": 0.9999997615814209,
+              "y": 0.9999998807907104,
+              "z": 1.000000238418579
             },
             "parent": 0
           }
@@ -1716,16 +1884,6 @@
             "states": []
           }
         },
-        "518": {
-          "json": {
-            "states": []
-          }
-        },
-        "519": {
-          "json": {
-            "states": []
-          }
-        },
         "520": {
           "json": {
             "states": []
@@ -1742,6 +1900,11 @@
           }
         },
         "523": {
+          "json": {
+            "states": []
+          }
+        },
+        "524": {
           "json": {
             "states": []
           }
@@ -2072,6 +2235,60 @@
           "json": {
             "states": []
           }
+        },
+        "586": {
+          "json": {
+            "states": []
+          }
+        },
+        "587": {
+          "json": {
+            "states": []
+          }
+        },
+        "588": {
+          "json": {
+            "states": []
+          }
+        },
+        "589": {
+          "json": {
+            "states": []
+          }
+        },
+        "590": {
+          "json": {
+            "states": []
+          }
+        },
+        "592": {
+          "json": {
+            "states": []
+          }
+        },
+        "593": {
+          "json": {
+            "states": []
+          }
+        },
+        "594": {
+          "json": {
+            "states": [
+              {
+                "clip": "ArmatureAction",
+                "playing": true,
+                "weight": 1,
+                "speed": 1,
+                "loop": true,
+                "shouldReset": false
+              }
+            ]
+          }
+        },
+        "595": {
+          "json": {
+            "states": []
+          }
         }
       }
     },
@@ -2084,6 +2301,14 @@
         "protocolBuffer": "PBAudioSource"
       },
       "data": {
+        "524": {
+          "json": {
+            "playing": true,
+            "volume": 0.1599999964237213,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/el_sonido_de_ditto_pokémon(_sound_effects)_pokedex..mp3"
+          }
+        },
         "528": {
           "json": {
             "playing": true,
@@ -2092,12 +2317,60 @@
             "audioClipUrl": "assets/scene/Audio/snore.mp3"
           }
         },
+        "532": {
+          "json": {
+            "playing": true,
+            "volume": 0.25999999046325684,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/diglett.mp3"
+          }
+        },
+        "562": {
+          "json": {
+            "playing": true,
+            "volume": 1,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/pikachu.mp3"
+          }
+        },
+        "563": {
+          "json": {
+            "playing": false,
+            "volume": 1,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/pokeball_wiggle.mp3"
+          }
+        },
         "569": {
           "json": {
             "playing": true,
             "volume": 1,
             "loop": true,
             "audioClipUrl": "assets/scene/Audio/water_magikarp.mp3"
+          }
+        },
+        "585": {
+          "json": {
+            "playing": true,
+            "volume": 0.1599999964237213,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/el_sonido_de_ditto_pokémon(_sound_effects)_pokedex..mp3"
+          }
+        },
+        "586": {
+          "json": {
+            "playing": true,
+            "volume": 0.6100000143051147,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/humilau_city_gym_[pokémon__black_2_&_white_2].mp3"
+          }
+        },
+        "587": {
+          "json": {
+            "playing": true,
+            "volume": 0.3400000035762787,
+            "loop": true,
+            "audioClipUrl": "assets/scene/Audio/humilau_city_gym_[pokémon__black_2_&_white_2].mp3"
           }
         }
       }
@@ -2530,6 +2803,41 @@
             "visibleMeshesCollisionMask": 2,
             "invisibleMeshesCollisionMask": 2
           }
+        },
+        "588": {
+          "json": {
+            "src": "assets/asset-packs/trigger_area/trigger_area.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "592": {
+          "json": {
+            "src": "assets/scene/Models/magi/magi.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "593": {
+          "json": {
+            "src": "assets/scene/Models/magi/magi.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "594": {
+          "json": {
+            "src": "assets/asset-packs/arrow/arrow.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "595": {
+          "json": {
+            "src": "assets/scene/Models/magi/magi.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
         }
       }
     },
@@ -2615,80 +2923,7 @@
             }
           }
         },
-        "518": {
-          "json": {
-            "material": {
-              "$case": "pbr",
-              "pbr": {
-                "texture": {
-                  "tex": {
-                    "$case": "texture",
-                    "texture": {
-                      "src": "assets/scene/Images/ditto_face.png",
-                      "wrapMode": 0,
-                      "filterMode": 0
-                    }
-                  }
-                },
-                "alphaTest": 1,
-                "castShadows": false,
-                "alphaTexture": {
-                  "tex": {
-                    "$case": "texture",
-                    "texture": {
-                      "src": "",
-                      "wrapMode": 1,
-                      "filterMode": 0
-                    }
-                  }
-                },
-                "emissiveTexture": {
-                  "tex": {
-                    "$case": "texture",
-                    "texture": {
-                      "src": "",
-                      "wrapMode": 0,
-                      "filterMode": 0
-                    }
-                  }
-                },
-                "bumpTexture": {
-                  "tex": {
-                    "$case": "texture",
-                    "texture": {
-                      "src": "",
-                      "wrapMode": 0,
-                      "filterMode": 0
-                    }
-                  }
-                },
-                "albedoColor": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1,
-                  "a": 1
-                },
-                "emissiveColor": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "reflectivityColor": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "transparencyMode": 2,
-                "metallic": 0.5,
-                "roughness": 0.5,
-                "specularIntensity": 1,
-                "emissiveIntensity": 0,
-                "directIntensity": 1
-              }
-            }
-          }
-        },
-        "519": {
+        "524": {
           "json": {
             "material": {
               "$case": "pbr",
@@ -2991,6 +3226,152 @@
                     "texture": {
                       "src": "assets/scene/Images/ditto_face.png",
                       "wrapMode": 0,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "alphaTest": 1,
+                "castShadows": false,
+                "alphaTexture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "",
+                      "wrapMode": 1,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "emissiveTexture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "",
+                      "wrapMode": 0,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "bumpTexture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "",
+                      "wrapMode": 0,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "albedoColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "emissiveColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "reflectivityColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "transparencyMode": 2,
+                "metallic": 0.5,
+                "roughness": 0.5,
+                "specularIntensity": 1,
+                "emissiveIntensity": 0,
+                "directIntensity": 1
+              }
+            }
+          }
+        },
+        "589": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "texture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "assets/scene/Images/catch-me-4-24-2025_(1).png",
+                      "wrapMode": 1,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "alphaTest": 1,
+                "castShadows": false,
+                "alphaTexture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "",
+                      "wrapMode": 1,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "emissiveTexture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "",
+                      "wrapMode": 0,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "bumpTexture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "",
+                      "wrapMode": 0,
+                      "filterMode": 0
+                    }
+                  }
+                },
+                "albedoColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                },
+                "emissiveColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "reflectivityColor": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "transparencyMode": 2,
+                "metallic": 0.5,
+                "roughness": 0.5,
+                "specularIntensity": 1,
+                "emissiveIntensity": 0,
+                "directIntensity": 1
+              }
+            }
+          }
+        },
+        "590": {
+          "json": {
+            "material": {
+              "$case": "pbr",
+              "pbr": {
+                "texture": {
+                  "tex": {
+                    "$case": "texture",
+                    "texture": {
+                      "src": "assets/scene/Images/congratz-4-25-2025.png",
+                      "wrapMode": 1,
                       "filterMode": 0
                     }
                   }
@@ -3073,16 +3454,7 @@
             }
           }
         },
-        "518": {
-          "json": {
-            "collisionMask": 1,
-            "mesh": {
-              "$case": "plane",
-              "plane": {}
-            }
-          }
-        },
-        "519": {
+        "524": {
           "json": {
             "collisionMask": 1,
             "mesh": {
@@ -3121,6 +3493,24 @@
         "585": {
           "json": {
             "collisionMask": 1,
+            "mesh": {
+              "$case": "plane",
+              "plane": {}
+            }
+          }
+        },
+        "589": {
+          "json": {
+            "collisionMask": 0,
+            "mesh": {
+              "$case": "plane",
+              "plane": {}
+            }
+          }
+        },
+        "590": {
+          "json": {
+            "collisionMask": 0,
             "mesh": {
               "$case": "plane",
               "plane": {}
@@ -3148,17 +3538,7 @@
             }
           }
         },
-        "518": {
-          "json": {
-            "mesh": {
-              "$case": "plane",
-              "plane": {
-                "uvs": []
-              }
-            }
-          }
-        },
-        "519": {
+        "524": {
           "json": {
             "mesh": {
               "$case": "plane",
@@ -3199,6 +3579,26 @@
           }
         },
         "585": {
+          "json": {
+            "mesh": {
+              "$case": "plane",
+              "plane": {
+                "uvs": []
+              }
+            }
+          }
+        },
+        "589": {
+          "json": {
+            "mesh": {
+              "$case": "plane",
+              "plane": {
+                "uvs": []
+              }
+            }
+          }
+        },
+        "590": {
           "json": {
             "mesh": {
               "$case": "plane",
@@ -3253,16 +3653,6 @@
             "value": "Doors+Handle"
           }
         },
-        "518": {
-          "json": {
-            "value": "ditto_face_2"
-          }
-        },
-        "519": {
-          "json": {
-            "value": "ditto_face_2_3"
-          }
-        },
         "520": {
           "json": {
             "value": "Pirate Lever_2"
@@ -3281,6 +3671,11 @@
         "523": {
           "json": {
             "value": "Item_Pokeball_snorlax"
+          }
+        },
+        "524": {
+          "json": {
+            "value": "ditto_face_3"
           }
         },
         "525": {
@@ -3582,6 +3977,51 @@
           "json": {
             "value": "ditto_face"
           }
+        },
+        "586": {
+          "json": {
+            "value": "Invisible Wall_2"
+          }
+        },
+        "587": {
+          "json": {
+            "value": "Invisible Wall_2_3"
+          }
+        },
+        "588": {
+          "json": {
+            "value": "Trigger Latias_2"
+          }
+        },
+        "589": {
+          "json": {
+            "value": "Tutorial1"
+          }
+        },
+        "590": {
+          "json": {
+            "value": "Tutorial1b"
+          }
+        },
+        "592": {
+          "json": {
+            "value": "magi.glb_2_3"
+          }
+        },
+        "593": {
+          "json": {
+            "value": "magi.glb_3_4_5_6_8"
+          }
+        },
+        "594": {
+          "json": {
+            "value": "Arrow"
+          }
+        },
+        "595": {
+          "json": {
+            "value": "magi.glb_3_4_5_6_8_9"
+          }
         }
       }
     },
@@ -3760,16 +4200,16 @@
               "$case": "rotate",
               "rotate": {
                 "start": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0.04361938685178757,
-                  "w": -0.9990482330322266
+                  "x": 0.030843565240502357,
+                  "y": -0.7064337730407715,
+                  "z": 0.030843565240502357,
+                  "w": -0.7064337730407715
                 },
                 "end": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0.04361938685178757,
-                  "w": 0.9990482330322266
+                  "x": 0.030843565240502357,
+                  "y": 0.7064337730407715,
+                  "z": 0.030843565240502357,
+                  "w": 0.7064337730407715
                 }
               }
             },
@@ -3915,6 +4355,78 @@
             },
             "playing": true
           }
+        },
+        "592": {
+          "json": {
+            "duration": 150,
+            "easingFunction": 3,
+            "mode": {
+              "$case": "rotate",
+              "rotate": {
+                "start": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 0.5,
+                  "w": 0.5
+                },
+                "end": {
+                  "x": -0.45451948046684265,
+                  "y": -0.5416752099990845,
+                  "z": -0.5416752099990845,
+                  "w": -0.45451948046684265
+                }
+              }
+            },
+            "playing": true
+          }
+        },
+        "593": {
+          "json": {
+            "duration": 100,
+            "easingFunction": 3,
+            "mode": {
+              "$case": "rotate",
+              "rotate": {
+                "start": {
+                  "x": -0.704416036605835,
+                  "y": -0.704416036605835,
+                  "z": -0.06162841618061066,
+                  "w": 0.06162841618061066
+                },
+                "end": {
+                  "x": 0.7071067690849304,
+                  "y": 0.7071067690849304,
+                  "z": 4.329780301713277e-17,
+                  "w": 4.329780301713277e-17
+                }
+              }
+            },
+            "playing": true
+          }
+        },
+        "595": {
+          "json": {
+            "duration": 100,
+            "easingFunction": 3,
+            "mode": {
+              "$case": "rotate",
+              "rotate": {
+                "start": {
+                  "x": -0.6644630432128906,
+                  "y": -0.6963642239570618,
+                  "z": -0.2418447583913803,
+                  "w": -0.12278780341148376
+                },
+                "end": {
+                  "x": 0.6830127239227295,
+                  "y": 0.6830127239227295,
+                  "z": 0.1830127090215683,
+                  "w": 0.1830127090215683
+                }
+              }
+            },
+            "playing": true
+          }
         }
       }
     },
@@ -3986,6 +4498,24 @@
             "sequence": [],
             "loop": 1
           }
+        },
+        "592": {
+          "json": {
+            "sequence": [],
+            "loop": 1
+          }
+        },
+        "593": {
+          "json": {
+            "sequence": [],
+            "loop": 1
+          }
+        },
+        "595": {
+          "json": {
+            "sequence": [],
+            "loop": 1
+          }
         }
       }
     },
@@ -4003,16 +4533,6 @@
             "visible": false
           }
         },
-        "518": {
-          "json": {
-            "visible": true
-          }
-        },
-        "519": {
-          "json": {
-            "visible": true
-          }
-        },
         "521": {
           "json": {
             "visible": false
@@ -4026,6 +4546,11 @@
         "523": {
           "json": {
             "visible": false
+          }
+        },
+        "524": {
+          "json": {
+            "visible": true
           }
         },
         "525": {
@@ -4187,6 +4712,26 @@
           "json": {
             "visible": true
           }
+        },
+        "588": {
+          "json": {
+            "visible": false
+          }
+        },
+        "589": {
+          "json": {
+            "visible": true
+          }
+        },
+        "590": {
+          "json": {
+            "visible": false
+          }
+        },
+        "594": {
+          "json": {
+            "visible": false
+          }
         }
       }
     },
@@ -4203,9 +4748,9 @@
         "serializationType": "map"
       },
       "data": {
-        "512": {
+        "595": {
           "json": {
-            "gizmo": 3
+            "gizmo": 0
           }
         }
       }
@@ -6239,15 +6784,22 @@
                   572,
                   573,
                   585,
-                  518,
-                  519,
                   527,
                   570,
                   575,
                   566,
                   576,
                   577,
-                  579
+                  579,
+                  586,
+                  587,
+                  588,
+                  524,
+                  589,
+                  590,
+                  592,
+                  593,
+                  595
                 ]
               },
               {
@@ -6309,7 +6861,10 @@
               },
               {
                 "entity": 544,
-                "children": []
+                "open": true,
+                "children": [
+                  594
+                ]
               },
               {
                 "entity": 551,
@@ -6515,14 +7070,6 @@
                 "children": []
               },
               {
-                "entity": 518,
-                "children": []
-              },
-              {
-                "entity": 519,
-                "children": []
-              },
-              {
                 "entity": 526,
                 "children": []
               },
@@ -6571,6 +7118,46 @@
               },
               {
                 "entity": 579,
+                "children": []
+              },
+              {
+                "entity": 586,
+                "children": []
+              },
+              {
+                "entity": 587,
+                "children": []
+              },
+              {
+                "entity": 588,
+                "children": []
+              },
+              {
+                "entity": 524,
+                "children": []
+              },
+              {
+                "entity": 589,
+                "children": []
+              },
+              {
+                "entity": 590,
+                "children": []
+              },
+              {
+                "entity": 592,
+                "children": []
+              },
+              {
+                "entity": 593,
+                "children": []
+              },
+              {
+                "entity": 594,
+                "children": []
+              },
+              {
+                "entity": 595,
                 "children": []
               }
             ]
@@ -6892,30 +7479,6 @@
             ]
           }
         },
-        "518": {
-          "json": {
-            "id": 95,
-            "value": [
-              {
-                "name": "HideDitto",
-                "type": "set_visibility",
-                "jsonPayload": "{\"visible\":false,\"collider\":0}"
-              }
-            ]
-          }
-        },
-        "519": {
-          "json": {
-            "id": 96,
-            "value": [
-              {
-                "name": "HideDitto",
-                "type": "set_visibility",
-                "jsonPayload": "{\"visible\":false,\"collider\":0}"
-              }
-            ]
-          }
-        },
         "520": {
           "json": {
             "id": 30,
@@ -7012,6 +7575,28 @@
                 "name": "UnHideBall",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              },
+              {
+                "name": "CatchSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_closed._snorlax.mp3\"}"
+              }
+            ]
+          }
+        },
+        "524": {
+          "json": {
+            "id": 106,
+            "value": [
+              {
+                "name": "HideDitto",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
               }
             ]
           }
@@ -7178,6 +7763,16 @@
                 "name": "ShowLatias",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
+              },
+              {
+                "name": "StartSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/latias.mp3\",\"volume\":0.32,\"loop\":true}"
               }
             ]
           }
@@ -7205,6 +7800,11 @@
                 "name": "Show Diglett Tween",
                 "type": "start_tween",
                 "jsonPayload": "{\"type\":\"move_item\",\"end\":{\"x\":0,\"y\":1,\"z\":0},\"relative\":true,\"interpolationType\":\"easeinquad\",\"duration\":1}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
               }
             ]
           }
@@ -7261,6 +7861,16 @@
                 "name": "ShowBall",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              },
+              {
+                "name": "WiggleSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_wiggle.mp3\",\"loop\":true}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
               }
             ]
           }
@@ -7741,6 +8351,11 @@
                 "name": "Dissapear",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
               }
             ]
           }
@@ -7792,6 +8407,21 @@
                 "name": "HideBall",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              },
+              {
+                "name": "GetBallSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_closed._pikachu.mp3\"}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
+              },
+              {
+                "name": "WiggleSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_wiggle.mp3\",\"loop\":true}"
               }
             ]
           }
@@ -7914,6 +8544,64 @@
                 "name": "HideDitto",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              },
+              {
+                "name": "StopSound",
+                "type": "stop_sound",
+                "jsonPayload": "{}"
+              }
+            ]
+          }
+        },
+        "589": {
+          "json": {
+            "id": 108,
+            "value": [
+              {
+                "name": "Hide",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              }
+            ]
+          }
+        },
+        "590": {
+          "json": {
+            "id": 109,
+            "value": [
+              {
+                "name": "Show",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":0}"
+              }
+            ]
+          }
+        },
+        "594": {
+          "json": {
+            "id": 110,
+            "value": [
+              {
+                "name": "Hide",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":0}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Show",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":0}",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "ShowArrow",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":0}"
+              },
+              {
+                "name": "HideArrow",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":0}"
               }
             ]
           }
@@ -7940,7 +8628,7 @@
         "0": {
           "json": {
             "id": 0,
-            "value": 105
+            "value": 110
           }
         }
       }
@@ -8115,40 +8803,6 @@
         "serializationType": "map"
       },
       "data": {
-        "518": {
-          "json": {
-            "value": [
-              {
-                "type": "on_input_action",
-                "conditions": [],
-                "operation": "and",
-                "actions": [
-                  {
-                    "id": 95,
-                    "name": "HideDitto"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "519": {
-          "json": {
-            "value": [
-              {
-                "type": "on_input_action",
-                "conditions": [],
-                "operation": "and",
-                "actions": [
-                  {
-                    "id": 96,
-                    "name": "HideDitto"
-                  }
-                ]
-              }
-            ]
-          }
-        },
         "520": {
           "json": {
             "value": [
@@ -8325,6 +8979,27 @@
             ]
           }
         },
+        "524": {
+          "json": {
+            "value": [
+              {
+                "type": "on_input_action",
+                "conditions": [],
+                "operation": "and",
+                "actions": [
+                  {
+                    "id": 106,
+                    "name": "HideDitto"
+                  },
+                  {
+                    "id": 106,
+                    "name": "StopSound"
+                  }
+                ]
+              }
+            ]
+          }
+        },
         "525": {
           "json": {
             "value": [
@@ -8448,6 +9123,10 @@
                   {
                     "id": 102,
                     "name": "ShowBall"
+                  },
+                  {
+                    "id": 101,
+                    "name": "StopSound"
                   }
                 ],
                 "basicViewId": "trigger-when-clicked"
@@ -8494,6 +9173,10 @@
                   {
                     "id": 43,
                     "name": "Hide Diglett Tween"
+                  },
+                  {
+                    "id": 43,
+                    "name": "StopSound"
                   }
                 ]
               }
@@ -8510,6 +9193,10 @@
                   {
                     "id": 102,
                     "name": "HideBall"
+                  },
+                  {
+                    "id": 102,
+                    "name": "StopSound"
                   }
                 ]
               },
@@ -8674,6 +9361,10 @@
                   {
                     "id": 53,
                     "name": "Hide Diglett Tween"
+                  },
+                  {
+                    "id": 110,
+                    "name": "Show"
                   }
                 ]
               }
@@ -8715,6 +9406,10 @@
                   {
                     "id": 66,
                     "name": "Show Diglett Tween"
+                  },
+                  {
+                    "id": 110,
+                    "name": "Hide"
                   }
                 ]
               }
@@ -8863,6 +9558,22 @@
                   {
                     "id": 87,
                     "name": "DelayDissapear"
+                  },
+                  {
+                    "id": 88,
+                    "name": "WiggleSound"
+                  },
+                  {
+                    "id": 87,
+                    "name": "StopSound"
+                  },
+                  {
+                    "id": 108,
+                    "name": "Hide"
+                  },
+                  {
+                    "id": 109,
+                    "name": "Show"
                   }
                 ],
                 "basicViewId": "trigger-when-clicked"
@@ -8880,6 +9591,10 @@
                   {
                     "id": 88,
                     "name": "HideBall"
+                  },
+                  {
+                    "id": 88,
+                    "name": "GetBallSound"
                   }
                 ]
               },
@@ -9046,6 +9761,10 @@
                   {
                     "id": 101,
                     "name": "ShowLatias"
+                  },
+                  {
+                    "id": 101,
+                    "name": "StartSound"
                   }
                 ]
               },
@@ -9132,8 +9851,37 @@
                   {
                     "id": 94,
                     "name": "HideDitto"
+                  },
+                  {
+                    "id": 94,
+                    "name": "StopSound"
                   }
                 ]
+              }
+            ]
+          }
+        },
+        "588": {
+          "json": {
+            "value": [
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "actions": [
+                  {
+                    "id": 101,
+                    "name": "Dissapear"
+                  },
+                  {
+                    "id": 101,
+                    "name": "StopSound"
+                  }
+                ]
+              },
+              {
+                "type": "on_player_leaves_area",
+                "conditions": [],
+                "actions": []
               }
             ]
           }
@@ -9298,12 +10046,6 @@
         "517": {
           "json": {}
         },
-        "518": {
-          "json": {}
-        },
-        "519": {
-          "json": {}
-        },
         "520": {
           "json": {}
         },
@@ -9314,6 +10056,9 @@
           "json": {}
         },
         "523": {
+          "json": {}
+        },
+        "524": {
           "json": {}
         },
         "525": {
@@ -9494,6 +10239,33 @@
           "json": {}
         },
         "585": {
+          "json": {}
+        },
+        "586": {
+          "json": {}
+        },
+        "587": {
+          "json": {}
+        },
+        "588": {
+          "json": {}
+        },
+        "589": {
+          "json": {}
+        },
+        "590": {
+          "json": {}
+        },
+        "592": {
+          "json": {}
+        },
+        "593": {
+          "json": {}
+        },
+        "594": {
+          "json": {}
+        },
+        "595": {
           "json": {}
         }
       }
@@ -10009,6 +10781,14 @@
               }
             ],
             "assetId": "bad6ae1f-4221-4f25-9c8b-f7ce77bb3adf"
+          }
+        },
+        "594": {
+          "json": {
+            "isBasicViewEnabled": false,
+            "componentName": "Arrow",
+            "fields": [],
+            "assetId": "8a172b9e-b57d-4920-a804-55cb77f46816"
           }
         }
       }
