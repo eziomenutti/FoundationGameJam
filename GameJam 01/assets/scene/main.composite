@@ -1227,15 +1227,15 @@
         "568": {
           "json": {
             "position": {
-              "x": 112.45508575439453,
+              "x": 112.45999908447266,
               "y": 32.58000183105469,
-              "z": 87.5908432006836
+              "z": 87.58999633789062
             },
             "rotation": {
-              "x": 0.06737957149744034,
-              "y": -0.2581885755062103,
-              "z": 0.018054306507110596,
-              "w": 0.9635728597640991
+              "x": -0.06737957894802094,
+              "y": 0.2581885755062103,
+              "z": -0.018054304644465446,
+              "w": -0.9635728597640991
             },
             "scale": {
               "x": 1,
@@ -1769,6 +1769,27 @@
             },
             "parent": 0
           }
+        },
+        "596": {
+          "json": {
+            "position": {
+              "x": 44,
+              "y": 32.42257308959961,
+              "z": 88.86654663085938
+            },
+            "rotation": {
+              "x": 0,
+              "y": 1,
+              "z": 0,
+              "w": 6.123234262925839e-17
+            },
+            "scale": {
+              "x": 4,
+              "y": 4,
+              "z": 4
+            },
+            "parent": 0
+          }
         }
       }
     },
@@ -2286,6 +2307,11 @@
           }
         },
         "595": {
+          "json": {
+            "states": []
+          }
+        },
+        "596": {
           "json": {
             "states": []
           }
@@ -2835,6 +2861,13 @@
         "595": {
           "json": {
             "src": "assets/scene/Models/magi/magi.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "596": {
+          "json": {
+            "src": "assets/scene/Models/pokeball_regular33/pokeball_regular33.glb",
             "visibleMeshesCollisionMask": 1,
             "invisibleMeshesCollisionMask": 2
           }
@@ -4022,6 +4055,11 @@
           "json": {
             "value": "magi.glb_3_4_5_6_8_9"
           }
+        },
+        "596": {
+          "json": {
+            "value": "Item_Pokeball_diglett"
+          }
         }
       }
     },
@@ -4732,6 +4770,11 @@
           "json": {
             "visible": false
           }
+        },
+        "596": {
+          "json": {
+            "visible": false
+          }
         }
       }
     },
@@ -4748,7 +4791,7 @@
         "serializationType": "map"
       },
       "data": {
-        "595": {
+        "554": {
           "json": {
             "gizmo": 0
           }
@@ -6799,7 +6842,8 @@
                   590,
                   592,
                   593,
-                  595
+                  595,
+                  596
                 ]
               },
               {
@@ -6872,6 +6916,7 @@
               },
               {
                 "entity": 552,
+                "open": true,
                 "children": [
                   553,
                   554,
@@ -7158,6 +7203,10 @@
               },
               {
                 "entity": 595,
+                "children": []
+              },
+              {
+                "entity": 596,
                 "children": []
               }
             ]
@@ -7575,11 +7624,6 @@
                 "name": "UnHideBall",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":true,\"collider\":2}"
-              },
-              {
-                "name": "CatchSound",
-                "type": "play_sound",
-                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_closed._snorlax.mp3\"}"
               }
             ]
           }
@@ -7731,6 +7775,16 @@
                 "name": "HideBall",
                 "type": "set_visibility",
                 "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              },
+              {
+                "name": "WiggleSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_wiggle.mp3\",\"loop\":true}"
+              },
+              {
+                "name": "CatchSound",
+                "type": "play_sound",
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokeball_closed._snorlax.mp3\"}"
               }
             ]
           }
@@ -8531,7 +8585,7 @@
               {
                 "name": "FluteSound",
                 "type": "play_sound",
-                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokemon_red_&_blue_ost_-_pokeflute.mp3\"}"
+                "jsonPayload": "{\"src\":\"assets/scene/Audio/pokemon_red_&_blue_ost_-_pokeflute.mp3\",\"volume\":0.41}"
               }
             ]
           }
@@ -8605,6 +8659,72 @@
               }
             ]
           }
+        },
+        "596": {
+          "json": {
+            "id": 111,
+            "value": [
+              {
+                "name": "Pick Up",
+                "type": "start_delay",
+                "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.1 }",
+                "allowedInBasicView": true
+              },
+              {
+                "name": "Set Ready",
+                "type": "set_state",
+                "jsonPayload": "{ \"state\": \"Ready\" }"
+              },
+              {
+                "name": "Attach To Player",
+                "type": "attach_to_player",
+                "jsonPayload": "{\"anchorPointId\":3}"
+              },
+              {
+                "name": "Play Attack Emote",
+                "type": "play_custom_emote",
+                "jsonPayload": "{\"src\":\"assets/asset-packs/sword/sword_attack.glb\",\"loop\":false}"
+              },
+              {
+                "name": "Damage",
+                "type": "heal_player",
+                "jsonPayload": "{}",
+                "basicViewId": "action-damage"
+              },
+              {
+                "name": "Set Cooling Down",
+                "type": "set_state",
+                "jsonPayload": "{ \"state\": \"Cooling Down\" }"
+              },
+              {
+                "name": "Start Cool Down Delay",
+                "type": "start_delay",
+                "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.5 }",
+                "allowedInBasicView": true,
+                "basicViewId": "action-cool-down-delay"
+              },
+              {
+                "name": "Cool Down",
+                "type": "batch",
+                "jsonPayload": "{ \"actions\": [\"Set Cooling Down\", \"Start Cool Down Delay\"] }"
+              },
+              {
+                "name": "Attack",
+                "type": "batch",
+                "jsonPayload": "{ \"actions\": [\"Play Attack Emote\", \"Damage\", \"Cool Down\"] }"
+              },
+              {
+                "name": "HideBall",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":false,\"collider\":0}"
+              },
+              {
+                "name": "UnHideBall",
+                "type": "set_visibility",
+                "jsonPayload": "{\"visible\":true,\"collider\":2}"
+              }
+            ]
+          }
         }
       }
     },
@@ -8628,7 +8748,7 @@
         "0": {
           "json": {
             "id": 0,
-            "value": 110
+            "value": 112
           }
         }
       }
@@ -9059,6 +9179,10 @@
                   {
                     "id": 80,
                     "name": "HideBall"
+                  },
+                  {
+                    "id": 80,
+                    "name": "CatchSound"
                   }
                 ]
               },
@@ -9071,12 +9195,7 @@
                     "value": "Ready"
                   }
                 ],
-                "actions": [
-                  {
-                    "id": 80,
-                    "name": "Attach To Player"
-                  }
-                ]
+                "actions": []
               },
               {
                 "type": "on_global_primary",
@@ -9410,6 +9529,10 @@
                   {
                     "id": 110,
                     "name": "Hide"
+                  },
+                  {
+                    "id": 111,
+                    "name": "UnHideBall"
                   }
                 ]
               }
@@ -9492,7 +9615,7 @@
           "json": {
             "value": [
               {
-                "type": "on_player_enters_area",
+                "type": "on_click",
                 "conditions": [],
                 "operation": "and",
                 "actions": []
@@ -9707,6 +9830,10 @@
                   {
                     "id": 40,
                     "name": "StopSound"
+                  },
+                  {
+                    "id": 80,
+                    "name": "WiggleSound"
                   }
                 ],
                 "basicViewId": "trigger-when-clicked"
@@ -9885,6 +10012,54 @@
               }
             ]
           }
+        },
+        "596": {
+          "json": {
+            "value": [
+              {
+                "type": "on_player_enters_area",
+                "conditions": [],
+                "actions": [
+                  {
+                    "id": 111,
+                    "name": "Pick Up"
+                  }
+                ]
+              },
+              {
+                "type": "on_state_change",
+                "conditions": [
+                  {
+                    "id": 112,
+                    "type": "when_state_is",
+                    "value": "Ready"
+                  }
+                ],
+                "actions": [
+                  {
+                    "id": 111,
+                    "name": "Attach To Player"
+                  }
+                ]
+              },
+              {
+                "type": "on_global_primary",
+                "conditions": [
+                  {
+                    "id": 112,
+                    "type": "when_state_is",
+                    "value": "Ready"
+                  }
+                ],
+                "actions": [
+                  {
+                    "id": 111,
+                    "name": "Attack"
+                  }
+                ]
+              }
+            ]
+          }
         }
       }
     },
@@ -10001,6 +10176,17 @@
         "564": {
           "json": {
             "id": 91,
+            "value": [
+              "Idle",
+              "Ready",
+              "Cooling Down"
+            ],
+            "defaultValue": "Idle"
+          }
+        },
+        "596": {
+          "json": {
+            "id": 112,
             "value": [
               "Idle",
               "Ready",
@@ -10266,6 +10452,9 @@
           "json": {}
         },
         "595": {
+          "json": {}
+        },
+        "596": {
           "json": {}
         }
       }
@@ -10789,6 +10978,27 @@
             "componentName": "Arrow",
             "fields": [],
             "assetId": "8a172b9e-b57d-4920-a804-55cb77f46816"
+          }
+        },
+        "596": {
+          "json": {
+            "isBasicViewEnabled": false,
+            "componentName": "Sword",
+            "fields": [
+              {
+                "name": "Damage",
+                "type": "asset-packs::Actions",
+                "layout": "{\"radius\": { \"field\": \"TextField\", \"type\": \"number\" }, \"hits\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Damage Points\" }, \"layer\": { \"field\": \"Dropdown\", \"label\": \"Damage Target\" }}",
+                "basicViewId": "action-damage"
+              },
+              {
+                "name": "Attack Cooldown",
+                "type": "asset-packs::Actions",
+                "layout": "{\"timeout\": { \"field\": \"RangeField\", \"label\": \"Attack Cooldown\", \"step\": \"0.1\" } }",
+                "basicViewId": "action-cool-down-delay"
+              }
+            ],
+            "assetId": "9a391273-b30b-4f35-a1a3-83d17728c0ed"
           }
         }
       }
