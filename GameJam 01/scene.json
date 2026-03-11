@@ -458,6 +458,8 @@
   },
   "rating": "T",
   "worldConfiguration": {
-    "name": "eziomenutti.dcl.eth"
-  }
+    "name": "eziomenutti.eth"
+  },
+  "skyboxConfig": {},
+  "creator": ""
 }
